@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:wght@700&family=Big+Shoulders+Text:wght@200;300&family=Charm&family=Crimson+Text:ital,wght@0,600;1,600&family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@300&family=Josefin+Sans&family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Almendra:wght@700&family=Big+Shoulders+Text:wght@200;300&family=Black+Ops+One&family=Charm&family=Crimson+Text:ital,wght@0,600;1,600&family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@300&family=Josefin+Sans&family=Jost:wght@300&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Almendra:wght@700&family=Big+Shoulders+Text:wght@200;300&family=Black+Ops+One&family=Charm&family=Crimson+Text:ital,wght@0,600;1,600&family=DM+Sans:opsz,wght@9..40,300&family=EB+Garamond&family=Inter:wght@300&family=Josefin+Sans&family=Jost:wght@300&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Almendra:wght@700&family=Big+Shoulders+Text:wght@200;300&family=Black+Ops+One&family=Charm&family=Crimson+Text:ital,wght@0,600;1,600&family=DM+Sans:opsz,wght@9..40,300&family=EB+Garamond&family=Inter:wght@300&family=Josefin+Sans&family=Jost:wght@300&family=Lusitana:wght@700&family=Rubik+Wet+Paint&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Londrina+Solid&family=Philosopher:wght@700&family=Tilt+Prism&family=Zeyada&display=swap');
+*{
+    margin: 0px;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg,blue,violet,blue);
+}
+
+
+.home nav{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    right: 70px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Crimson Text', serif;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgb(19, 18, 18);
+}
+
+nav a:hover{
+    color: rgb(19, 19, 19);
+    text-shadow: 2px 2px 1px whitesmoke;
+}
+
+.main .name{
+    position: absolute;
+    left:45%;
+    top:40%;
+    transform: translate(-150px,-50px);
+}
+
+.name h1{
+    color: rgba(16, 247, 247, 0.998);
+    font-size: 60px;
+    font-family: 'Almendra', serif;
+    text-shadow: 3px 3px 1px black;
+}
+
+.name h2{
+    color: rgba(18, 15, 17, 0.9);
+    font-size: 30px;
+    font-family: 'Almendra', serif;
+    text-shadow: 2px 2px aliceblue;
+}
+
+
+.name2{
+    color: white;
+    font-size: 40px;
+    width: 500px;
+    font-family: 'Almendra', serif;
+    font-weight:100;
+}
+.home #icon{
+    position: relative;
+    top:40px;
+    left:150px;
+    font-size:100px;
+    color: black;
+    animation: bounce 1s ease infinite alternate;
+}
+
+@keyframes bounce{
+    from{
+        transform: translateY(0px);
+    }to{
+        transform: translateY(30px);
+    }
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(249, 249, 133);
+}
+
+.inner_about{
+    width: 50%;
+    position: relative;
+    left:25%;
+}
+
+.inner_about h2{
+    color: rgb(1, 1, 26);
+    font-family: 'Aclonica', sans-serif;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(255, 78, 78);
+}
+
+.inner_about img{
+    border-radius: 50%;
+    position: relative;
+    top:30px;
+    left:200px;
+    box-shadow: 2px 2px 2px blue;
+}
+
+.inner_about p{
+    font-size: 20px;
+    font-family: 'Almendra', serif;
+    position: relative;
+    top:60px;
+    text-align: justify;
+}
+
+.skill{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(86, 216, 239, 0.644);
+}
+
+.skill .inner_skill{
+    position: relative;
+    top:50px;
+    height: 470px;
+    width: 60%;
+    background-color: rgb(39, 150, 247);
+    position: relative;
+    left:20%;
+    border-radius: 20px;
+}
+
+.skill .inner_skill h2{
+    position: relative;
+    top:15px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    text-shadow: 2px 2px 2px rgb(235, 232, 232);    
+    font-size: 30px;
+}
+
+.skill .inner_skill p{
+    font-size: 23px;
+    padding: 7px;
+    font-family: 'Rubik Wet Paint', cursive;
+    text-shadow: 1px 1px  rgb(232, 229, 229);
+}
+
+.skill .inner_skill .skill_rating{
+    width: 90%;
+    background-color: #9fe5f1;
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    left:30px;
+}
+
+.skill .inner_skill .rating_bar1{
+    background-color: #ebff3a;
+    border-radius: 5px;
+    height: 100%;
+    width: 70%; /* Adjust this value to set the initial rating */
+    transition: width 1s ease-in-out;
+
+    
+    animation-name:load1;
+    animation-duration:3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:initial;
+    animation-direction:alternate;
+}
+@keyframes load1 {
+    from{
+       width:0px;
+    }
+    to{
+        width:70%;
+    }
+}
+
+.skill .inner_skill .rating_bar2{
+    background-color: #34db34;
+    border-radius: 5px;
+    height: 100%;
+    width: 55%; 
+    /* Adjust this value to set the initial rating */
+    transition: width 1s ease-in-out;
+
+    
+    animation-name:load2;
+    animation-duration:3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:initial;
+    animation-direction:alternate;
+}
+@keyframes load2 {
+    from{
+       width:0px;
+    }
+    to{
+        width:55%;
+    }
+}
+
+
+.skill .inner_skill .rating_bar4{
+    background-color: #dd5fad;
+    border-radius: 5px;
+    height: 100%;
+    width: 60%; /* Adjust this value to set the initial rating */
+    transition: width 1s ease-in-out;
+ 
+    
+    animation-name:load3;
+    animation-duration:3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:initial;
+    animation-direction:alternate;
+}
+@keyframes load3 {
+    from{
+       width:0px;
+    }
+    to{
+        width:60%;
+    }
+}
+
+.skill .inner_skill .rating_bar5{
+    background-color: #f6bf48;
+    border-radius: 5px;
+    height: 100%;
+    width: 90%; /* Adjust this value to set the initial rating */
+    transition: width 1s ease-in-out;
+
+    
+    animation-name:load4;
+    animation-duration:3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:initial;
+    animation-direction:alternate;
+}
+@keyframes load4 {
+    from{
+       width:0px;
+    }
+    to{
+        width:90%;
+    }
+}
+
+.skill .inner_skill .rating_bar6{
+    background-color: #23700b;
+    border-radius: 5px;
+    height: 100%;
+    width: 85%; /* Adjust this value to set the initial rating */
+    transition: width 1s ease-in-out;
+
+    
+    animation-name:load5;
+    animation-duration:3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:initial;
+    animation-direction:alternate;
+}
+@keyframes load5 {
+    from{
+       width:0px;
+    }
+    to{
+        width:85%;
+    }
+}
+
+.skill .inner_skill .rating_bar7{
+    background-color: #f35b5b;
+    border-radius: 5px;
+    height: 100%;
+    width: 40%; /* Adjust this value to set the initial rating */
+    transition: width 1s ease-in-out;
+
+    
+    animation-name:load6;
+    animation-duration:3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:initial;
+    animation-direction:alternate;
+}
+@keyframes load6 {
+    from{
+       width:0px;
+    }
+    to{
+        width:40%;
+    }
+}
+
+
+.project{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(224, 190, 110, 0.644);
+}
+
+.project h1{
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.project img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    left:200px;
+}
+
+.project button{
+    border: none;
+    background-color: rgba(224, 26, 26, 0.884);
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left:350px;
+    bottom: 70px;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.project button:hover{
+    background-color: rgba(240, 74, 74, 0.655);
+}
+
+.project button a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+
+.project1 h2{
+    position: absolute;
+    left: 800px;
+    /* left:800px;
+    top:50px; */
+    font-family: 'Rubik Wet Paint', cursive;
+    text-shadow: 2px 2px white;
+}
+
+.project2 h2{
+    /* position: relative;
+    left:630px;
+    top:50px; */
+    position: absolute;
+    left: 650px;
+    font-family: 'Rubik Wet Paint', cursive;
+    text-shadow: 2px 2px white;
+}
+
+.contact{
+    height: 99vh;
+    width: 100%;
+    background-color: rgb(253, 85, 102);
+}
+.contact a{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left:330px;
+    top:60px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.contact h1{
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+
+.contact img{
+    width: 50px;
+    height: 50px;
+}
+
+.contact img:hover{
+    background-color: #61f1f3;
+    border-radius: 50px;
+}
+
+.contact .cv h1{
+    font-family: 'Aclonica', sans-serif;
+    text-shadow: 2px 2px white;
+    position: relative;
+    top:130px;    
+}
+
+.contact .res a{
+    display:contents;
+}
+
+.contact .res button{
+    border: none;
+    background-color: rgb(252,230,157);
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Crimson Text';
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 190px;
+    left:400px;
+}
+
+.contact .res button a{
+    color: black;
+}
+
+.contact .res button:hover{
+    background-color: antiquewhite;
+}
